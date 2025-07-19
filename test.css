@@ -1,0 +1,148 @@
+body {
+    background-color: /*#eae0f1*/ #ece8eb ;
+    font-family: palatino linotype, serif;
+    margin:0;
+    
+}
+p {
+    font-size: larger;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.cross {
+    width: 25px;
+    padding-top:20px;
+    padding-left: 180px;
+    margin-bottom: -7px;
+}
+.site-name {
+    text-align: left;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left:20px;
+    font-weight: 100;
+}
+.top-nav {
+    float: right;
+    margin-top: -50px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.top-nav a {
+    padding: 10px;
+    color: black;
+}
+.welcome {
+    text-align: center;
+    background-image: url(resources/pexels-dreamypixel-547115.jpg);
+    background-position: center;
+    border-top-left-radius: 50% 85%;
+    border-top-right-radius: 50% 85%;
+    height:900px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#title {
+    font-size: 100px;
+    padding-top: 90px;
+    font-weight: 100;
+    color: white;
+}
+#motto {
+    font-size: 35px;
+    margin-top: -70px;
+    color: white;
+}
+#blog-head {
+    text-align: center;
+    font-size: 4em;
+}
+.blog-pic {
+    display: block;
+    margin-left: 10%;
+    width:30%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.blog-title {
+    font-size: x-large;
+}
+.blog-txt {
+    margin-top: -325px;
+    margin-left: 50%;
+    margin-bottom:150px;
+}
+.about-snip {
+    text-align: center;
+    font-size: 3em;
+}
+#bioPic {
+    width: 300px;
+    padding-top: 40px;
+    margin-left: -50%;
+}
+.page-head {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #c4b5d1;
+}
+.story-head {
+    text-align: center;
+    font-size: 35px;
+}
+.story-pic {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+.stories {
+    text-indent: 40px;
+    padding: 10px;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+hr {
+    margin: 15px;
+}
+.footer{
+   background-color: #c4b5d1; 
+}
+.form {
+    margin-left: 60%;
+    margin-right: 10%;
+}
+#prayer4prayer {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 60%;
+}
+#copyright {
+    text-align: center;
+    color: white;
+    background-color: #674e7e;
+    padding: 10px;
+}
+.social-icon {
+    margin-left:23%;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+#instagram-icon {
+    width: 50px;
+    padding-right: 30px;
+}
+#facebook-icon {
+    width: 50px;
+}
