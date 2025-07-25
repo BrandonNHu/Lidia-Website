@@ -79,10 +79,15 @@ a {
     text-align: center;
     font-size: 3em;
 }
-#bioPic {
-    width: 300px;
+#bioPic1 {
+    width: 400px;
     padding-top: 40px;
     margin-left: -50%;
+}
+#bioPic2 {
+    width: 400px;
+    padding-top: 40px;
+    margin-left: 20%;
 }
 .page-head {
     text-align: center;
@@ -109,6 +114,31 @@ a {
     padding: 10px;
     margin-left: 28%;
     margin-right: 28%;
+}
+.bio-clip {
+    margin-top: -450px;
+    margin-left: 50%;
+    margin-bottom: 200px;
+    padding-right: 400px;
+    text-align: left;
+}
+.bcHead {
+    font-size: 40px;
+    border-bottom: solid 1px;
+    margin-right: 40px;
+    padding-bottom:15px;
+    
+}
+.bcBody {
+    font-size: 20px;
+    text-indent: 40px;
+}
+#bio-redirect {
+    text-align: center;
+    font-size: medium;
+    border: solid ;
+    border-width: 1px;
+    padding:5px 25px;
 }
 hr {
     margin: 15px;
