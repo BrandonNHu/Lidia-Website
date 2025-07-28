@@ -1,0 +1,10 @@
+{
+  /* Templates */
+  default: "index.html",
+  notFound: "404.html",
+  error: "500.html",
+  bio: "bio.html",
+  
+  /* STYLES */
+  /* SCRIPTS */
+}
