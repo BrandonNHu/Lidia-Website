@@ -1,0 +1,36 @@
+{
+  "name": "lidia-website",
+  "version": "0.0.1",
+  "description": "Personal website for Lidia Hu",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.json",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "node --env-file .env --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonNHu/Lidia-Website.git"
+  },
+  "author": "Brandon Hu, Estefan Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonNHu/Lidia-Website/issues"
+  },
+  "homepage": "https://github.com/BrandonNHu/Lidia-Website#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.32.0",
+    "@eslint/json": "^0.13.1",
+    "@eslint/markdown": "^7.1.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-prettier": "^5.5.3",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}
