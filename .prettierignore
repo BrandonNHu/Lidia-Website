@@ -1,0 +1,10 @@
+**/dist
+**/coverage
+**/.chglog
+
+# general
+**/.git
+**/.github
+**/.svn
+**/.hg
+**/node_modules

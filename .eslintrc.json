@@ -1,0 +1,60 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["prettier"],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "overrides": [
+    {
+      "files": ["*.js"]
+    },
+    {
+      "files": ["**/*.md"],
+      "plugins": ["@eslint/markdown"],
+      "language": "markdown/commonmark"
+      "rules": {
+        "markdown/no-html": "off"
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "settings": {},
+  "rules": {
+    "prettier/prettier": ["error"],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "max-len": [
+      "error",
+      120,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreTrailingComments": true
+      }
+    ],
+    "strict": [2, "never"],
+    "class-methods-use-this": "error",
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "mjs": "never",
+        "js": "ignorePackages"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "*", "next": "return" }],
+    "ignores": ["node_modules/"]
+  }
+}
